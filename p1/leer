@@ -1,0 +1,10 @@
+Para visualizar los distintos modos usaremos:
+ 0 --> modo alambre
+ 1 --> modo ajedrez
+ 2 --> modo sólido
+ 3 --> modo puntos
+Para visualizar los distintos archivos ply, los pondremos en el makefile del siguiente modo:
+exec: $(target_name)
+	@echo "ejecutando " $(target_name) " ...."
+	./$(target_name) ant.ply
+En esta entrega hemos proporcionado el archivo ant.ply. 
