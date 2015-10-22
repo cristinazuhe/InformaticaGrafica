@@ -1,0 +1,9 @@
+tecla l --> pinta alambre
+tecla a --> pinta ajedrez
+tecla s --> pinta sólido
+tecla p --> pinta puntos
+tecla n --> pinta la escena normal
+
+tecla c/C -->rota globo,cesta y cuerdas en un sentido y en el opuesto.
+tecla z/Z -->comprime/expande la cesta y las cuerdas. En un principio esta comprimido.
+tecla x/X -->comprime/expande el globo. En un principio esta comprimido.

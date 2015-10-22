@@ -1,0 +1,17 @@
+tecla 0 --> pinta alambre
+tecla 1 --> pinta ajedrez
+tecla 2 --> pinta sólido
+tecla 3 --> pinta puntos
+tecla 4 --> pinta con color de las normales de los vertices
+tecla 5 --> pinta con color de las normales de las caras
+
+tecla c--> añade las normales de las caras (visualización de los segmentos)
+tecla a--> añade las noramles de las aristas (visualización de los segmentos)
+
+
+Para visualizar los distintos archivos ply, los pondremos en el makefile del siguiente modo:
+exec: $(target_name)
+	@echo "ejecutando " $(target_name) " ...."
+	./$(target_name) ant.ply  perfil2.ply 20.0
+En esta entrega hemos proporcionado el archivo ant.ply y el perfil2.ply creado. El numero de perfiles será 20.
+
